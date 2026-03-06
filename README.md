@@ -1,62 +1,37 @@
-# 🛡️ Mini SOC Dashboard - SIEM-lite in Python
+# Mini-SOC
 
-## 📌 Objective
-A lightweight Security Operations Center (SOC) dashboard to monitor logs, detect threats, and visualize alerts from system and network logs.
+## Features
+- Feature 1: Description of feature 1
+- Feature 2: Description of feature 2
+- Feature 3: Description of feature 3
 
-## 🧰 Tools & Tech Used
-- Python
-- Flask (Web UI)
-- SQLite (Storage)
-- pyshark (PCAP parser)
-- Chart.js / Plotly (Visualization)
-- Linux logs (/var/log/)
-- GeoIP API (optional)
+## Installation Instructions
+To install the Mini-SOC project, follow these steps:
 
-## 🗂️ Project Structure
-├── app.py 
-├── templates/ 
-│
-└── dashboard.html 
-├── static/ │
-  └── charts.js 
-├── parsers/ │ 
-  └── authlog_parser.py │
-  └── pcap_parser.py 
-├── db/ │ 
-  └── logs.db 
-└── README.md
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Akhileshpalve89/Mini-SOC.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Mini-SOC
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   # Add any package manager commands here, e.g., npm install or pip install
+   ```
 
+## Usage Guidelines
+To use the Mini-SOC project, follow these steps:
 
+1. Ensure all dependencies are installed.
+2. Run the main application:
+   ```bash
+   # Add commands to run the application here
+   ```
 
-## 🔍 Features
-- Real-time log monitoring
-- Brute-force & port-scan detection
-- IP-based threat visualization
-- Exportable reports
-- Modular codebase
-
-## 🚀 Setup Instructions
-
-```bash
-git clone https://github.com/Akhileshpalve89/mini-soc-dashboard.git
-cd mini-soc
-pip install -r requirements.txt
-python app.py
-```
-
-## 📊 Screenshots
-
-## 📚 Skills Gained
-- Python scripting
-- Log parsing and threat detection
-- SIEM fundamentals
-- Flask web development
-- Security visualization
-
-## 🏁 Future Improvements
-- Docker support
-- Live feed via WebSocket
-- Integration with remote agents
-
-Created with ❤️ by Akhilesh Palve
----
+## Project Setup
+1. Set up the necessary environment:
+   - Ensure you have the required software versions (e.g., Python, Node.js).
+2. Configuration options (if any):
+   - Explain any important configuration steps.
