@@ -1,0 +1,5 @@
+Flask
+SQLite
+pyshark
+Plotly
+# Add other dependencies needed for the SOC dashboard here
